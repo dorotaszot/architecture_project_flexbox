@@ -1,0 +1,21 @@
+/* Align icon to left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+}
+
+/* Position icon */
+#what .items .item i {
+ width: 55px;
+ align-self: center;
+}
+
+#what .items .item #bulb {
+  width: 95px;
+}
+
+/* Map bigger */
+#contact .map {
+  flex:2;
+}

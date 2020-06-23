@@ -1,0 +1,95 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+}
+
+#what .items .item h3,
+#what .items .item p {
+  text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+ width: 55px;
+ align-self: center;
+ margin-bottom: 0;
+ margin-right: 1.3rem;
+}
+
+#what .items .item #bulb {
+  width: 55px;
+  flex-shrink: 0;
+}
+
+/* Smartphones */
+
+@media(max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  #navbar ul {
+   padding: 0.5;
+  }
+
+  #showcase .showcase-content {
+    top: 99px;
+  }
+
+  #who {
+    display: block;
+  }
+
+  #who .who-img {
+    display: none;
+  }
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child{
+    display: none;
+  }
+
+  #contact {
+    display: block;
+  }
+
+  #contact .map {
+    height: 200px;
+  }
+
+  #contact .contact-form {
+    border-bottom: 4px #333 solid;
+  }
+}
+
+@media(max-height: 640px) {
+  #showcase .showcase-content {
+    margin-top: -80px;
+  }
+}
+
+@media(max-width: 420px) {
+  h1.l-heading {
+    padding-top: 100px;
+  }
+  .showcase-content h1 {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+}
+
